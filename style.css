@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    padding: 16px 60px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-items {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-ctas {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+nav button {
+    padding: 12px 28px;
+    border-radius: 4px;
+    background-color: #E4F222;
+    border: none;
+}
+
+.yellow-grid {
+    height: 760px;
+    width: 100%;
+}
